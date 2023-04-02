@@ -1,0 +1,112 @@
+#comment {
+    .comment-content {
+        padding-bottom: 20px;
+        width: 250px;
+
+        &:first-child {
+            padding-top: 15px;
+
+        }
+
+        &:last-child {
+            padding-bottom: 5px;
+
+        }
+
+        .mine-comment {
+
+            // MIME COMMENT
+
+            .comment-user {
+
+                img {
+                    margin-top: 4px;
+                    float: left;
+                    height: 39px;
+                    width: 37px;
+                }
+
+                .comment-user-content {
+                    width: 200px;
+                    background: rgb(238, 230, 230);
+                    border-radius: 30px;
+
+
+                }
+
+                .comment-username {
+                    margin-left: 40px;
+                    font-size: 16px;
+
+
+                    .comment-body {
+                        margin-left: 10px;
+                        font-size: 16px;
+
+                    }
+
+                    .comment-date {
+                        margin-top: -7px;
+                        font-size: 10px;
+                    }
+
+                    .comment-btn {
+                        margin: 0px;
+                        padding: 0px;
+                        font-size: 15px;
+                        background: #fff;
+                        color: #000;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        // REPLY COMMENT
+        .reply-comment {
+            padding-top: 7px;
+
+            img {
+                margin-top: 4px;
+                float: left;
+                height: 31px;
+                width: 30px;
+            }
+
+            .reply-user-reply {
+                width: 200px;
+                background: rgb(238, 230, 230);
+                border-radius: 30px;
+
+
+            }
+
+            .reply-username {
+                margin-left: 40px;
+                font-size: 16px;
+
+
+                .reply-body {
+                    margin-left: 10px;
+                    font-size: 16px;
+
+                }
+
+                .reply-date {
+                    margin-top: -7px;
+                    font-size: 10px;
+                }
+
+                .reply-btn {
+                    margin: 0px;
+                    padding: 0px;
+                    font-size: 15px;
+                    background: #fff;
+                    color: #000;
+                    border: none;
+                }
+            }
+
+        }
+    }
+}
